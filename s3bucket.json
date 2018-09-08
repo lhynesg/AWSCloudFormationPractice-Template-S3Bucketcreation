@@ -1,0 +1,12 @@
+	"AWSTemplateFormatVersion": "2018-06-09",
+	"Description": "Simple S3 bucket",
+	"Resources": {
+		"S3Bucket": {
+			"Type" : "AWS::S3::Bucket",
+			"Properties": {
+				"BucketName": "siguas3bucket1"
+			}
+		}
+	}
+
+
